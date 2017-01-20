@@ -5,14 +5,14 @@ body {
     max-width: 1024px;
 	margin: 0 auto;
     background-color:#68C8FF;
-    background-image: url("./images/IMG_1886.jpg");
+    background-image: url("./images/IMG_1886.JPG");
     font-family: sans-serif;
 }
 
 
 header {
     margin: 1em;
-    padding: 1.5em;
+    padding: 1em;
     border: 2px solid #133b59;
     background-color: #9fa090;
     opacity: 0.8;
@@ -30,7 +30,8 @@ header img {
 }
 
 main {
-    padding: 1em;
+    width: 90%;
+    padding: 2em;
     margin: 1em;
     border: 2px solid #133b59;
     text-align: center;
@@ -39,6 +40,8 @@ main {
     filter: alpha(opacity=60); /* For IE8 and earlier */
     
 }
+#primary {font-style: oblique;}
+#secondary {font-variant:small-caps; }
 
 main p {color: #000000;}
 main h2 { text-align:left;}
@@ -58,10 +61,18 @@ article a:hover {color: #ffffff;}
 footer {
     padding: 2em;
     margin: 1em;
-    border: 2px solid #2A3E3D;
+    border: 1px solid #2A3E3D;
     text-align: full;
     color:#7b9c79;
 }
 footer a:link {color: #ffffff;}
 footer a:visited { color: #D45500;}
 footer a:hover {color: #ffffff;}
+
+.logo {
+    font-variant: small-caps;
+    color: #B29A60;
+    text-align: right;
+    
+    
+}

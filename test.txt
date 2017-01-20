@@ -1,0 +1,125 @@
+vlwil@DESKTOP-NL5SS4R MINGW64 ~ (master)
+$ git push origin master:gh-pages
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/swsvlwillim/html-me-somet                                                                                                       hing.git'
+
+vlwil@DESKTOP-NL5SS4R MINGW64 ~ (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   lc101/.vscode/launch.json
+        new file:   lc101/counting-characters/counting.py
+        new file:   lc101/crypto/__pycache__/alphabet_position.cpython-35.pyc
+        new file:   lc101/crypto/__pycache__/caesar.cpython-35.pyc
+        new file:   lc101/crypto/__pycache__/helpers.cpython-35.pyc
+        new file:   lc101/crypto/__pycache__/initials.cpython-35.pyc
+        new file:   lc101/crypto/__pycache__/rotate_character.cpython-35.pyc
+        new file:   lc101/crypto/__pycache__/test.cpython-35.pyc
+        new file:   lc101/crypto/__pycache__/vigenere.cpython-35.pyc
+        new file:   lc101/crypto/adam.py
+        new file:   lc101/crypto/alphabet_position.py
+        new file:   lc101/crypto/argparse.py
+        new file:   lc101/crypto/caesar.py
+        new file:   lc101/crypto/caesarnotes.py
+        new file:   lc101/crypto/ch12homework.txt
+        new file:   lc101/crypto/decryptproblem.py
+        new file:   lc101/crypto/encrypt.py
+        new file:   lc101/crypto/helpers.py
+        new file:   lc101/crypto/initials.py
+        new file:   lc101/crypto/new 1.txt
+        new file:   lc101/crypto/rotate_character.py
+        new file:   lc101/crypto/test.py
+        new file:   lc101/crypto/testposition.py
+        new file:   lc101/crypto/vigenere.py
+        new file:   lc101/flicklist-python
+        new file:   lc101/hello-gae/app.yaml
+        new file:   lc101/hello-gae/favicon.ico
+        new file:   lc101/hello-gae/index.yaml
+        new file:   lc101/hello-gae/main.py
+        new file:   lc101/hello-gae/main.pyc
+        new file:   lc101/html-me-something
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   lc101/html-me-something (new commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .anaconda/
+        .bash_history
+        .conda/
+        .configprops/
+        .datastorage/
+        .gitconfig
+        .ipynb_checkpoints/
+        .ipython/
+        .jupyter/
+        .matplotlib/
+        .pylint.d/
+        .qgis2/
+        .viminfo
+        .vscode/
+        3D Objects/
+        Anaconda3/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        Google/
+        IntelGraphicsProfiles/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{204f8e60-c31d-11e6-84e2-c2e51518a4bf}.TM.blf
+        NTUSER.DAT{204f8e60-c31d-11e6-84e2-c2e51518a4bf}.TMContainer000000000000                                                                                                       00000001.regtrans-ms
+        NTUSER.DAT{204f8e60-c31d-11e6-84e2-c2e51518a4bf}.TMContainer000000000000                                                                                                       00000002.regtrans-ms
+        OneDrive/
+        Pictures/
+        Saved Games/
+        Searches/
+        Tracing/
+        Untitled.ipynb
+        Untitled1.ipynb
+        Untitled2.ipynb
+        Untitled3.ipynb
+        Untitled4.ipynb
+        Videos/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        tiny red guy.jpg
+
+
+vlwil@DESKTOP-NL5SS4R MINGW64 ~ (master)
+$ pwd
+/c/Users/vlwil
+
+vlwil@DESKTOP-NL5SS4R MINGW64 ~ (master)
+$ cd lc101/
+
+vlwil@DESKTOP-NL5SS4R MINGW64 ~/lc101 (master)
+$ ls
+counting-characters/  flicklist-python/  html-me-something/
+crypto/               hello-gae/
+
+vlwil@DESKTOP-NL5SS4R MINGW64 ~/lc101 (master)
+$ cd html-me-something/
+
+vlwil@DESKTOP-NL5SS4R MINGW64 ~/lc101/html-me-something (master)
+$ git push origin master:gh-pages
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/swsvlwillim/html-me-something.git
+   20ace82..390e6bb  master -> gh-pages
+
+vlwil@DESKTOP-NL5SS4R MINGW64 ~/lc101/html-me-something (master)
+$
