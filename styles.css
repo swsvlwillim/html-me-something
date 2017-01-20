@@ -1,33 +1,14 @@
-@font-face {
- font-family: ArchitectsDaughter;
- src: url("ArchitectsDaughter.eot") /* EOT file for IE */
-}
-@font-face {
- font-family: ArchitectsDaughter;
- src: url("ArchitectsDaughter.ttf") /* TTF file for CSS3 browsers */
-}
-
-@font-face {
- font-family: DistrictThin;
- src: url("DistictThin.eot") /* EOT file for IE */
-}
-@font-face {
- font-family: DistrictThin;
- src: url("DistrictThin.ttf") /* TTF file for CSS3 browsers */
-}
-
-@fontface {
-  font-family: DistrictThin;
-  src: url("DistrictThin.otf")
- }
+html { font-size: 16px;}
 
 body {
     width: 100%;
     max-width: 1024px;
 	margin: 0 auto;
     background-color:#68C8FF;
-    background-image: url("images/IMG_1886.jpg");
+    background-image: url("./images/IMG_1886.jpg");
+    font-family: sans-serif;
 }
+
 
 header {
     margin: 1em;
@@ -36,12 +17,16 @@ header {
     background-color: #9fa090;
     opacity: 0.8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
+    font-family: script;
+    font-size: 1.3em;
+    line-height: 1.3em;
 }
 
 header img { 
     float: right;
     border: 2px solid #133b59;
     padding: 1em;
+    
 }
 
 main {
@@ -50,11 +35,12 @@ main {
     border: 2px solid #133b59;
     text-align: center;
     background-color: #D0CFE5;
-    opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    
 }
 
-main p {color: color: #000000;}
+main p {color: #000000;}
 main h2 { text-align:left;}
 
 h1,h2,h3,h4,h5,h6 {color: #D45500;}
@@ -74,7 +60,7 @@ footer {
     margin: 1em;
     border: 2px solid #2A3E3D;
     text-align: full;
-    color:#ffffff;
+    color:#7b9c79;
 }
 footer a:link {color: #ffffff;}
 footer a:visited { color: #D45500;}
